@@ -1,1 +1,0 @@
-python consolidate_databases.py -sd output/sciencedirect.csv -sc output/scopus.csv -wos output/webofscience.csv --output output/consolidated.csv

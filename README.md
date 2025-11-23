@@ -1,4 +1,4 @@
-# Search Export Consolidation Tools
+# RIS Search Export Consolidation Tools
 
 Tools to consolidate bibliographic data from ScienceDirect, Scopus, and Web of Science **search results** into a single unified CSV file.
 

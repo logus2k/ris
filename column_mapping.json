@@ -1,0 +1,595 @@
+{
+  "unified_schema": [
+    {
+      "unified_name": "Title",
+      "mappings": {
+        "sciencedirect": "primary_title",
+        "scopus": "Title",
+        "webofscience": "Article Title"
+      },
+      "priority": 1
+    },
+    {
+      "unified_name": "Authors",
+      "mappings": {
+        "sciencedirect": "authors",
+        "scopus": "Authors",
+        "webofscience": "Authors"
+      },
+      "priority": 1
+    },
+    {
+      "unified_name": "Author_Full_Names",
+      "mappings": {
+        "scopus": "Author full names",
+        "webofscience": "Author Full Names"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "Year",
+      "mappings": {
+        "sciencedirect": "year",
+        "scopus": "Year",
+        "webofscience": "Publication Year"
+      },
+      "priority": 1
+    },
+    {
+      "unified_name": "DOI",
+      "mappings": {
+        "sciencedirect": "doi",
+        "scopus": "DOI",
+        "webofscience": "DOI"
+      },
+      "priority": 1
+    },
+    {
+      "unified_name": "Abstract",
+      "mappings": {
+        "sciencedirect": "abstract",
+        "webofscience": "Abstract"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "Keywords",
+      "mappings": {
+        "sciencedirect": "keywords",
+        "webofscience": "Author Keywords"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "Journal_Name",
+      "mappings": {
+        "sciencedirect": "journal_name",
+        "webofscience": "Source Title"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "Volume",
+      "mappings": {
+        "sciencedirect": "volume",
+        "webofscience": "Volume"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "Start_Page",
+      "mappings": {
+        "sciencedirect": "start_page",
+        "webofscience": "Start Page"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "End_Page",
+      "mappings": {
+        "sciencedirect": "end_page",
+        "webofscience": "End Page"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "ISSN",
+      "mappings": {
+        "sciencedirect": "issn",
+        "webofscience": "ISSN"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "Publisher",
+      "mappings": {
+        "sciencedirect": "publisher",
+        "webofscience": "Publisher"
+      },
+      "priority": 2
+    },
+    {
+      "unified_name": "Type_of_Reference",
+      "mappings": {
+        "sciencedirect": "type_of_reference"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Date",
+      "mappings": {
+        "sciencedirect": "date"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "URLs",
+      "mappings": {
+        "sciencedirect": "urls"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Secondary_Authors",
+      "mappings": {
+        "sciencedirect": "secondary_authors"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Unknown_Tag",
+      "mappings": {
+        "sciencedirect": "unknown_tag"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Secondary_Title",
+      "mappings": {
+        "sciencedirect": "secondary_title"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Number",
+      "mappings": {
+        "sciencedirect": "number"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Place_Published",
+      "mappings": {
+        "sciencedirect": "place_published"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Author_IDs",
+      "mappings": {
+        "scopus": "Author(s) ID"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Scopus_Link",
+      "mappings": {
+        "scopus": "Link"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Publication_Type",
+      "mappings": {
+        "webofscience": "Publication Type"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Book_Authors",
+      "mappings": {
+        "webofscience": "Book Authors"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Book_Editors",
+      "mappings": {
+        "webofscience": "Book Editors"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Book_Group_Authors",
+      "mappings": {
+        "webofscience": "Book Group Authors"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Book_Author_Full_Names",
+      "mappings": {
+        "webofscience": "Book Author Full Names"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Group_Authors",
+      "mappings": {
+        "webofscience": "Group Authors"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Book_Series_Title",
+      "mappings": {
+        "webofscience": "Book Series Title"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Book_Series_Subtitle",
+      "mappings": {
+        "webofscience": "Book Series Subtitle"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Language",
+      "mappings": {
+        "webofscience": "Language"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Document_Type",
+      "mappings": {
+        "webofscience": "Document Type"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Conference_Title",
+      "mappings": {
+        "webofscience": "Conference Title"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Conference_Date",
+      "mappings": {
+        "webofscience": "Conference Date"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Conference_Location",
+      "mappings": {
+        "webofscience": "Conference Location"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Conference_Sponsor",
+      "mappings": {
+        "webofscience": "Conference Sponsor"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Conference_Host",
+      "mappings": {
+        "webofscience": "Conference Host"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Keywords_Plus",
+      "mappings": {
+        "webofscience": "Keywords Plus"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Addresses",
+      "mappings": {
+        "webofscience": "Addresses"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Affiliations",
+      "mappings": {
+        "webofscience": "Affiliations"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Reprint_Addresses",
+      "mappings": {
+        "webofscience": "Reprint Addresses"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Email_Addresses",
+      "mappings": {
+        "webofscience": "Email Addresses"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Researcher_Ids",
+      "mappings": {
+        "webofscience": "Researcher Ids"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "ORCIDs",
+      "mappings": {
+        "webofscience": "ORCIDs"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Funding_Orgs",
+      "mappings": {
+        "webofscience": "Funding Orgs"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Funding_Name_Preferred",
+      "mappings": {
+        "webofscience": "Funding Name Preferred"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Funding_Text",
+      "mappings": {
+        "webofscience": "Funding Text"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Cited_References",
+      "mappings": {
+        "webofscience": "Cited References"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Cited_Reference_Count",
+      "mappings": {
+        "webofscience": "Cited Reference Count"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Times_Cited_WoS_Core",
+      "mappings": {
+        "webofscience": "Times Cited, WoS Core"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Times_Cited_All_Databases",
+      "mappings": {
+        "webofscience": "Times Cited, All Databases"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Usage_Count_180_Day",
+      "mappings": {
+        "webofscience": "180 Day Usage Count"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Usage_Count_Since_2013",
+      "mappings": {
+        "webofscience": "Since 2013 Usage Count"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Publisher_City",
+      "mappings": {
+        "webofscience": "Publisher City"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Publisher_Address",
+      "mappings": {
+        "webofscience": "Publisher Address"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "eISSN",
+      "mappings": {
+        "webofscience": "eISSN"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "ISBN",
+      "mappings": {
+        "webofscience": "ISBN"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Journal_Abbreviation",
+      "mappings": {
+        "webofscience": "Journal Abbreviation"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Journal_ISO_Abbreviation",
+      "mappings": {
+        "webofscience": "Journal ISO Abbreviation"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Publication_Date",
+      "mappings": {
+        "webofscience": "Publication Date"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Issue",
+      "mappings": {
+        "webofscience": "Issue"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Part_Number",
+      "mappings": {
+        "webofscience": "Part Number"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Supplement",
+      "mappings": {
+        "webofscience": "Supplement"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Special_Issue",
+      "mappings": {
+        "webofscience": "Special Issue"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Meeting_Abstract",
+      "mappings": {
+        "webofscience": "Meeting Abstract"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Article_Number",
+      "mappings": {
+        "webofscience": "Article Number"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "DOI_Link",
+      "mappings": {
+        "webofscience": "DOI Link"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Book_DOI",
+      "mappings": {
+        "webofscience": "Book DOI"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Early_Access_Date",
+      "mappings": {
+        "webofscience": "Early Access Date"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Number_of_Pages",
+      "mappings": {
+        "webofscience": "Number of Pages"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "WoS_Categories",
+      "mappings": {
+        "webofscience": "WoS Categories"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Web_of_Science_Index",
+      "mappings": {
+        "webofscience": "Web of Science Index"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Research_Areas",
+      "mappings": {
+        "webofscience": "Research Areas"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "IDS_Number",
+      "mappings": {
+        "webofscience": "IDS Number"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Pubmed_Id",
+      "mappings": {
+        "webofscience": "Pubmed Id"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Open_Access_Designations",
+      "mappings": {
+        "webofscience": "Open Access Designations"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Highly_Cited_Status",
+      "mappings": {
+        "webofscience": "Highly Cited Status"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Hot_Paper_Status",
+      "mappings": {
+        "webofscience": "Hot Paper Status"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Date_of_Export",
+      "mappings": {
+        "webofscience": "Date of Export"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "UT_Unique_WOS_ID",
+      "mappings": {
+        "webofscience": "UT (Unique WOS ID)"
+      },
+      "priority": 3
+    },
+    {
+      "unified_name": "Web_of_Science_Record",
+      "mappings": {
+        "webofscience": "Web of Science Record"
+      },
+      "priority": 3
+    }
+  ]
+}
